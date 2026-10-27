@@ -1,0 +1,321 @@
+<!doctype html>
+<!-- scripts/build_site.py ile üretilir: yapı site/templates, metinler site/locales. Elle düzenleme. -->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Beadfever – Montessori bead threading for little hands</title>
+<meta name="description" content="A calm, ad-free bead threading game for ages 2–6. Copy the pattern, thread wooden beads onto a red lace and make your own necklace.">
+<meta name="theme-color" content="#5cabe5">
+<meta name="color-scheme" content="light dark">
+<meta property="og:title" content="Beadfever – Montessori bead threading for little hands">
+<meta property="og:description" content="A calm, ad-free bead threading game for ages 2–6. Copy the pattern, thread wooden beads onto a red lace and make your own necklace.">
+<meta property="og:image" content="https://selahattincincin.github.io/beadfever/img/icon.png">
+<link rel="icon" href="img/icon.png">
+<link rel="apple-touch-icon" href="img/icon.png">
+<link rel="stylesheet" href="style.css">
+<link rel="alternate" hreflang="en" href="https://selahattincincin.github.io/beadfever/">
+<link rel="alternate" hreflang="de" href="https://selahattincincin.github.io/beadfever/de/">
+<link rel="alternate" hreflang="es" href="https://selahattincincin.github.io/beadfever/es/">
+<link rel="alternate" hreflang="fr" href="https://selahattincincin.github.io/beadfever/fr/">
+<link rel="alternate" hreflang="tr" href="https://selahattincincin.github.io/beadfever/tr/">
+<link rel="alternate" hreflang="x-default" href="https://selahattincincin.github.io/beadfever/">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="hero">
+  <div class="wrap">
+    <nav class="topbar" aria-label="Languages"><a class="lang" href="de/" hreflang="de">Deutsch</a><a class="lang" href="es/" hreflang="es">Español</a><a class="lang" href="fr/" hreflang="fr">Français</a><a class="lang" href="tr/" hreflang="tr">Türkçe</a></nav>
+  </div>
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+    <div class="brand">
+      <img src="img/icon.png" alt="Beadfever app icon: beads on a red lace" width="96" height="96">
+      <div>
+        <h1 class="logo" aria-label="Beadfever"><span class="letters" aria-hidden="true"><span class="red">B</span><span class="orange">e</span><span class="yellow">a</span><span class="green">d</span><span class="blue">f</span><span class="purple">e</span><span class="pink">v</span><span class="red">e</span><span class="orange">r</span></span></h1>
+        <p class="tagline">Montessori bead threading for little hands</p>
+      </div>
+    </div>
+      <p class="lead">Pick a wooden bead, bring it to the tip of the lace and watch it slide down. Copy the pattern bead by bead and make a necklace of your own.</p>
+      <ul class="chips">
+        <li>Ages 2–6</li><li>No ads</li><li>No data collected</li><li>Works offline</li><li>iPhone &amp; iPad</li><li>5 languages</li>
+      </ul>
+      <p class="store"><span class="store-pill">Coming soon to the App Store</span></p>
+    </div>
+    <div class="scene" aria-hidden="true">
+      <svg viewBox="0 0 240 460" role="presentation" focusable="false">
+        <defs>
+          <linearGradient id="wood" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#feeac2"/><stop offset="1" stop-color="#f2b86b"/></linearGradient>
+          <pattern id="grain" width="14" height="460" patternUnits="userSpaceOnUse"><path d="M3 0 Q5 230 2 460 M9 0 Q11 230 10 460" stroke="#663d1f" stroke-opacity=".07" fill="none"/></pattern>
+          <radialGradient id="glow"><stop offset="0" stop-color="#ffdb4d" stop-opacity=".9"/><stop offset="1" stop-color="#ffdb4d" stop-opacity="0"/></radialGradient>
+          <linearGradient id="g-red" x1="0" x2="1"><stop offset="0" stop-color="#f25c5e"/><stop offset=".25" stop-color="#f68b8c"/><stop offset=".6" stop-color="#f01f24"/><stop offset="1" stop-color="#b8181c"/></linearGradient>
+          <linearGradient id="g-yellow" x1="0" x2="1"><stop offset="0" stop-color="#ffe45c"/><stop offset=".25" stop-color="#ffec8a"/><stop offset=".6" stop-color="#ffd100"/><stop offset="1" stop-color="#c9a400"/></linearGradient>
+          <linearGradient id="g-blue" x1="0" x2="1"><stop offset="0" stop-color="#4f7fe0"/><stop offset=".25" stop-color="#7fa2ea"/><stop offset=".6" stop-color="#0a57db"/><stop offset="1" stop-color="#0845ad"/></linearGradient>
+          <linearGradient id="g-pink" x1="0" x2="1"><stop offset="0" stop-color="#ff86b4"/><stop offset=".25" stop-color="#ffa9ca"/><stop offset=".6" stop-color="#ff61a3"/><stop offset="1" stop-color="#cc4d82"/></linearGradient>
+          <linearGradient id="g-green" x1="0" x2="1"><stop offset="0" stop-color="#6bc95d"/><stop offset=".25" stop-color="#93d888"/><stop offset=".6" stop-color="#3db829"/><stop offset="1" stop-color="#309320"/></linearGradient>
+          <linearGradient id="g-purple" x1="0" x2="1"><stop offset="0" stop-color="#a687ef"/><stop offset=".25" stop-color="#bda6f3"/><stop offset=".6" stop-color="#8f5ceb"/><stop offset="1" stop-color="#7249bc"/></linearGradient>
+        </defs>
+        <rect x="8" y="8" width="224" height="444" rx="30" fill="url(#wood)"/>
+        <rect x="8" y="8" width="224" height="444" rx="30" fill="url(#grain)"/>
+        <rect x="9.5" y="9.5" width="221" height="441" rx="29" fill="none" stroke="#fff" stroke-opacity=".55" stroke-width="3"/>
+        <circle class="tip-glow" cx="129" cy="62" r="44" fill="url(#glow)"/>
+        <path d="M120 412 Q140 240 128 78" fill="none" stroke="#8c1214" stroke-width="10" stroke-linecap="round"/>
+        <path d="M120 412 Q140 240 128 78" fill="none" stroke="#eb2929" stroke-width="7.5" stroke-linecap="round"/>
+        <path d="M118 412 Q138 240 126 78" fill="none" stroke="#fff" stroke-opacity=".25" stroke-width="2.4" stroke-linecap="round"/>
+        <path d="M128 80 L130 34" stroke="#382117" stroke-width="9" stroke-linecap="round"/>
+        <path d="M126.5 74 L128 40" stroke="#fff" stroke-opacity=".35" stroke-width="2" stroke-linecap="round"/>
+        <circle cx="120" cy="422" r="15" fill="#f2b86b"/>
+        <circle cx="115" cy="417" r="6" fill="#fff" fill-opacity=".45"/>
+        <g transform="translate(121 382)"><g class="drop d1" style="--fall:-300px"><rect x="-22" y="-25" width="44" height="50" rx="7" fill="url(#g-red)"/><ellipse cx="0" cy="-19" rx="6" ry="2.4" fill="#5a0b0d"/><rect x="-15" y="-15" width="5" height="18" rx="2.5" fill="#fff" fill-opacity=".65"/></g></g>
+        <g transform="translate(124 330)"><g class="drop d2" style="--fall:-250px"><path d="M-12 -23 H12 C28 -16 28 16 12 23 H-12 C-28 16 -28 -16 -12 -23Z" fill="url(#g-yellow)"/><ellipse cx="0" cy="-18" rx="6" ry="2.4" fill="#6b5600"/><rect x="-16" y="-14" width="5" height="17" rx="2.5" fill="#fff" fill-opacity=".65"/></g></g>
+        <g transform="translate(126 280)"><g class="drop d3" style="--fall:-200px"><circle r="11" cx="0" cy="-11" fill="url(#g-pink)"/><circle r="11" cx="10.5" cy="-3.4" fill="url(#g-pink)"/><circle r="11" cx="6.5" cy="8.9" fill="url(#g-pink)"/><circle r="11" cx="-6.5" cy="8.9" fill="url(#g-pink)"/><circle r="11" cx="-10.5" cy="-3.4" fill="url(#g-pink)"/><circle r="7.5" fill="#ffdb1a"/><circle r="2.4" fill="#7a2949"/></g></g>
+        <g transform="translate(127 230)"><g class="drop d4" style="--fall:-150px"><rect x="-21" y="-21" width="42" height="42" rx="7" fill="url(#g-blue)"/><ellipse cx="0" cy="-15" rx="6" ry="2.4" fill="#04224f"/><rect x="-14" y="-12" width="5" height="16" rx="2.5" fill="#fff" fill-opacity=".65"/></g></g>
+        <g transform="translate(128 180)"><g class="drop d5" style="--fall:-100px"><path d="M0 -27 C24 -10 24 10 0 27 C-24 10 -24 -10 0 -27Z" fill="url(#g-green)"/><path d="M0 -21 Q4 0 0 21 M1 -6 L10 -11 M1 -6 L-8 -10 M1 6 L10 1 M1 6 L-8 2" stroke="#1d5c13" stroke-opacity=".5" stroke-width="1.6" fill="none" stroke-linecap="round"/></g></g>
+        <g transform="translate(128 132)"><g class="drop d6" style="--fall:-55px"><path d="M0 22 C-8 15 -22 8 -22 -6 C-22 -16 -13 -21 -6 -18 C-3 -17 -1 -15 0 -12 C1 -15 3 -17 6 -18 C13 -21 22 -16 22 -6 C22 8 8 15 0 22Z" fill="url(#g-purple)"/><circle r="2.6" cy="1" fill="#341f5c"/><rect x="-15" y="-12" width="4.5" height="12" rx="2.2" fill="#fff" fill-opacity=".6"/></g></g>
+      </svg>
+    </div>
+  </div>
+</header>
+
+<main id="main" class="wrap">
+  <section class="tray intro">
+    <h2>A real Montessori material, on the screen</h2>
+    <p>Beadfever is inspired by the wooden lacing beads found in every Montessori classroom. A single wooden work tray holds everything: the example lace on the left, the child's lace in the middle and the bead tray on the right. Each bead lines up next to its twin in the example, so copying feels natural.</p>
+    <p>There are no points, stars or timers. A wrong bead simply goes back to the tray and the right one in the example glows for a moment. When the lace is full, the child sees the necklace they made. That is the reward.</p>
+  </section>
+
+  <section>
+    <h2>What it supports</h2>
+    <ul class="benefits">
+      <li><span class="bead red" aria-hidden="true"></span>Fine motor skills</li>
+      <li><span class="bead orange" aria-hidden="true"></span>Hand–eye coordination</li>
+      <li><span class="bead yellow" aria-hidden="true"></span>Longer attention and focus</li>
+      <li><span class="bead green" aria-hidden="true"></span>Problem solving</li>
+      <li><span class="bead lightBlue" aria-hidden="true"></span>Colors and shapes</li>
+      <li><span class="bead blue" aria-hidden="true"></span>Foundations of math: patterns and counting</li>
+      <li><span class="bead purple" aria-hidden="true"></span>Both hands working together</li>
+      <li><span class="bead pink" aria-hidden="true"></span>Listening and language</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Take a look</h2>
+    <div class="shots">
+      <figure class="phone">
+        <img src="img/shelf.jpg" alt="The shelf: works ordered from easy to hard on wooden shelves" loading="lazy" width="598" height="1300">
+        <figcaption>The shelf</figcaption>
+      </figure>
+      <figure class="phone">
+        <img src="img/shapes.jpg" alt="A work tray with an eight-bead example: heart, flower, drop, ball, leaf, star" loading="lazy" width="598" height="1300">
+        <figcaption>Copy the pattern</figcaption>
+      </figure>
+      <figure class="phone">
+        <img src="img/animals.jpg" alt="Animal figure beads: cats and dogs on the lace and in the tray" loading="lazy" width="598" height="1300">
+        <figcaption>Cat and dog beads</figcaption>
+      </figure>
+      <figure class="phone">
+        <img src="img/workshop.jpg" alt="The workshop: paint pots and every bead shape for free play" loading="lazy" width="598" height="1300">
+        <figcaption>The workshop</figcaption>
+      </figure>
+      <figure class="phone">
+        <img src="img/en-done.jpg" alt="A finished rainbow necklace and the words: You made it!" loading="lazy" width="598" height="1300">
+        <figcaption>Your necklace</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section>
+    <h2>The Montessori way</h2>
+    <div class="cards">
+      <article class="tray card">
+        <span class="card-icon" aria-hidden="true">🪵</span>
+        <h3>Real materials</h3>
+        <p>Painted wooden beads, a red braided lace with a hard tip, a wooden stopper. Color carries meaning; nothing is there just for decoration.</p>
+      </article>
+      <article class="tray card">
+        <span class="card-icon" aria-hidden="true">🔍</span>
+        <h3>Control of error</h3>
+        <p>The material itself shows the mistake: the bead returns to the tray and the example glows. The child notices and corrects without being told off.</p>
+      </article>
+      <article class="tray card">
+        <span class="card-icon" aria-hidden="true">🌱</span>
+        <h3>No external rewards</h3>
+        <p>No stars, scores or streaks. Finishing a work shows the necklace the child made; repeating it or moving on is their choice.</p>
+      </article>
+      <article class="tray card">
+        <span class="card-icon" aria-hidden="true">🗄️</span>
+        <h3>Order on the shelf</h3>
+        <p>Works wait on open wooden shelves from easy to hard. Works not yet presented show their beads in plain, unpainted wood.</p>
+      </article>
+    </div>
+  </section>
+
+  <section>
+    <h2>75 works on the shelf</h2>
+    <p class="section-lead">Each step isolates one difficulty, then combines them.</p>
+    <ol class="shelf">
+      <li>
+        <span class="strand" aria-hidden="true"><i class="b red"></i><i class="b red"></i><i class="b red"></i><i class="b yellow"></i><i class="b yellow"></i></span>
+        <b>Colors</b>
+        <span>One color, then AB rows and shades from light to dark.</span>
+      </li>
+      <li>
+        <span class="strand" aria-hidden="true"><i class="b purple"></i><i class="b purple"></i><i class="b purple"></i><i class="b purple"></i><i class="b purple"></i></span>
+        <b>Shapes</b>
+        <span>Same color, different shapes: cube, barrel, peanut, star, heart…</span>
+      </li>
+      <li>
+        <span class="strand" aria-hidden="true"><i class="b red"></i><i class="b yellow"></i><i class="b blue"></i><i class="b red"></i><i class="b yellow"></i></span>
+        <b>Patterns</b>
+        <span>AAB, ABC, ABBA; find the missing bead and continue a pattern.</span>
+      </li>
+      <li>
+        <span class="strand" aria-hidden="true"><i class="b red"></i><i class="b green"></i><i class="b green"></i><i class="b pink"></i><i class="b pink"></i></span>
+        <b>Counting</b>
+        <span>Groups in the colors of the Montessori bead stair: 1 red, 2 green, 3 pink…</span>
+      </li>
+      <li>
+        <span class="strand" aria-hidden="true"><i class="b blue"></i><i class="b blue"></i><i class="b blue"></i><i class="b blue"></i><i class="b blue"></i></span>
+        <b>Big and small</b>
+        <span>Three sizes of the same bead, ordered by size.</span>
+      </li>
+      <li>
+        <span class="strand" aria-hidden="true"><i class="b green"></i><i class="b pink"></i><i class="b green"></i><i class="b pink"></i><i class="b green"></i></span>
+        <b>Memory</b>
+        <span>The example is shown, then covered with a cloth.</span>
+      </li>
+      <li>
+        <span class="strand" aria-hidden="true"><i class="b yellow"></i><i class="b red"></i><i class="b blue"></i><i class="b yellow"></i><i class="b red"></i></span>
+        <b>Listen and thread</b>
+        <span>The sequence is read aloud instead of shown.</span>
+      </li>
+      <li>
+        <span class="strand" aria-hidden="true"><i class="b lightBlue"></i><i class="b orange"></i><i class="b green"></i><i class="b orange"></i><i class="b lightBlue"></i></span>
+        <b>Symmetry and animals</b>
+        <span>Rows that read the same from both ends, and fish, bird, turtle and bear beads.</span>
+      </li>
+    </ol>
+  </section>
+
+  <section>
+    <h2>More than copying</h2>
+    <div class="cards">
+      <article class="tray card">
+        <span class="card-icon" aria-hidden="true">🎨</span>
+        <h3>Workshop</h3>
+        <p>Free play: dip into the paint pots, choose any shape or animal and thread your own necklace. Tap the last bead to take it off.</p>
+      </article>
+      <article class="tray card">
+        <span class="card-icon" aria-hidden="true">🎁</span>
+        <h3>Treasure box</h3>
+        <p>Every finished work and workshop necklace is kept here: the child's own collection.</p>
+      </article>
+      <article class="tray card">
+        <span class="card-icon" aria-hidden="true">👂</span>
+        <h3>Listen and thread</h3>
+        <p>“Red cube, yellow barrel…” – the pattern is spoken in the child's language.</p>
+      </article>
+      <article class="tray card">
+        <span class="card-icon" aria-hidden="true">🐻</span>
+        <h3>Animal beads</h3>
+        <p>Flat painted wooden figures – fish, bird, turtle and bear – on the shelf and in the workshop.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="tray parents">
+    <h2>For parents</h2>
+    <ul class="checks">
+      <li><b>No ads, no in-app tracking, no data collected.</b> Progress stays on the device. The app works without internet.</li>
+      <li><b>A parent gate.</b> Settings and links outside the app are behind a multiplication question.</li>
+      <li><b>Observation, not grades.</b> See which skills your child has worked on, how often they retried and how long they played.</li>
+      <li><b>A gentle session limit.</b> When time is up, the app waits for the work to finish and then says it is time to put the work away.</li>
+      <li><b>Made for every child.</b> VoiceOver, color patterns for color blindness, Reduce Motion, thread-with-a-tap instead of dragging, an easy mode for ages 2–3, dark mode.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Questions</h2>
+    <details>
+      <summary>Which ages is it for?</summary>
+      <p>From about 2 to 6. Choose “Easy” in the parent settings for the youngest: a larger target and a stronger magnet at the tip of the lace.</p>
+    </details>
+    <details>
+      <summary>Does it need the internet?</summary>
+      <p>No. Everything, including the spoken patterns, works offline.</p>
+    </details>
+    <details>
+      <summary>Why are there no stars or points?</summary>
+      <p>Montessori education avoids external rewards so that the joy of the work itself drives the child. The necklace they made is the reward.</p>
+    </details>
+    <details>
+      <summary>How do I open the parent area?</summary>
+      <p>Tap the gear on the shelf and answer the multiplication question.</p>
+    </details>
+    <details>
+      <summary>Which devices and languages are supported?</summary>
+      <p>iPhone and iPad with iOS 18 or later, in every orientation on iPad. English, Turkish, German, Spanish and French.</p>
+    </details>
+    <details>
+      <summary>Can I start over?</summary>
+      <p>Yes: Parent area → Data → Reset progress. The treasure box can be emptied there too.</p>
+    </details>
+  </section>
+
+  <section>
+    <h2 id="versions">Versions</h2>
+    <ol class="releases">
+      <li class="tray release">
+        <div class="release-head">
+          <span class="ver">0.1</span>
+          <h3>First version</h3>
+          <span class="tag">In development</span>
+        </div>
+        <div class="changes">
+          <div>
+            <h4>Play</h4>
+            <ul>
+              <li>75 works from colors to symmetry</li>
+              <li>Copy, memory and listen-and-thread modes</li>
+              <li>Workshop and treasure box</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Beads</h4>
+            <ul>
+              <li>11 shapes and 4 animals in 12 colors and 3 sizes</li>
+            </ul>
+          </div>
+          <div>
+            <h4>Parents</h4>
+            <ul>
+              <li>Parent gate, observation by skill, session limit</li>
+            </ul>
+          </div>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <section class="tray contact">
+    <h2>Help and feedback</h2>
+    <p>Questions, ideas or a bead your child wishes existed? Write to <a href="mailto:selahattincincin@gmail.com">selahattincincin@gmail.com</a>.</p>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <span class="logo-sm">Beadfever</span> ·
+    <a href="mailto:selahattincincin@gmail.com">selahattincincin@gmail.com</a> ·
+    <a href="./">Home</a> ·
+    <a href="privacy.html">Privacy</a> ·
+    <a href="de/" hreflang="de">Deutsch</a> ·
+    <a href="es/" hreflang="es">Español</a> ·
+    <a href="fr/" hreflang="fr">Français</a> ·
+    <a href="tr/" hreflang="tr">Türkçe</a>
+    <p class="fine">Made with care for small hands. No ads, no tracking.</p>
+  </div>
+</footer>
+</body>
+</html>
