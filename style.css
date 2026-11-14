@@ -122,10 +122,10 @@ a { color: inherit; }
 }
 @media (prefers-color-scheme: dark) { .chips li { background: rgba(255, 255, 255, 0.14); color: #fff; } }
 
-.store-pill {
-  display: inline-block; background: #111; color: #fff; font-weight: 700; padding: 12px 20px;
-  border-radius: 14px; box-shadow: var(--shadow);
-}
+.store { display: flex; align-items: center; gap: 14px; flex-wrap: wrap; }
+.appstore { display: inline-block; line-height: 0; border-radius: 10px; }
+.appstore img { height: 54px; width: auto; display: block; }
+.store-note { color: var(--on-mat); font-weight: 700; font-size: 15px; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); }
 
 /* ---------- Bağcık sahnesi ---------- */
 
@@ -183,13 +183,13 @@ main h2 {
 .red { --c: var(--red); } .orange { --c: var(--orange); } .yellow { --c: var(--yellow); } .green { --c: var(--green); }
 .lightBlue { --c: var(--light-blue); } .blue { --c: var(--blue); } .purple { --c: var(--purple); } .pink { --c: var(--pink); }
 
-.shots { display: flex; gap: 18px; overflow-x: auto; scroll-snap-type: x mandatory; padding: 8px 4px 22px; }
-.phone { margin: 0; flex: 0 0 auto; width: 230px; scroll-snap-align: start; text-align: center; }
-.phone img {
-  width: 100%; height: auto; display: block; border-radius: 34px; border: 7px solid #17181b;
-  box-shadow: var(--shadow); background: #000;
+/* Mağaza görselleri: paneller arada boşluk olmadan yan yana durur, bağcık panelden panele kesintisiz akar */
+.flow {
+  display: flex; overflow-x: auto; border-radius: 22px; box-shadow: var(--shadow); background: #fffaf0;
+  scroll-snap-type: x proximity; -webkit-overflow-scrolling: touch;
 }
-.phone figcaption { color: var(--on-mat); font-weight: 700; margin-top: 10px; text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2); }
+.flow img { flex: 0 0 auto; height: 560px; width: auto; display: block; scroll-snap-align: start; }
+@media (max-width: 640px) { .flow img { height: 460px; } }
 
 .cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 18px; }
 .card { margin: 0; }
@@ -236,6 +236,8 @@ details p { margin: 10px 0 2px; }
 .release-head h3 { margin: 0; }
 .ver { background: var(--ink); color: var(--wood-light); font-weight: 800; padding: 4px 10px; border-radius: 10px; }
 .tag { background: var(--leaf); color: #fff; font-weight: 800; padding: 3px 10px; border-radius: 999px; font-size: 14px; }
+.date { font-weight: 700; font-size: 14px; opacity: 0.75; }
+.links { display: flex; gap: 10px 18px; flex-wrap: wrap; font-weight: 700; }
 .changes { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 6px 20px; }
 .changes h4 { margin: 8px 0 4px; }
 .changes ul { margin: 0; padding-left: 20px; }
